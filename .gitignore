@@ -1,0 +1,9 @@
+# Ignore data folders
+data/
+
+
+# Ignore all WAV audio files
+*.wav
+
+
+
