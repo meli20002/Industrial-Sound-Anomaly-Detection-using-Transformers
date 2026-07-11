@@ -2,7 +2,6 @@
 
 A master's project exploring **audio-based anomaly detection for industrial machinery** (fan sounds), comparing a Transformer-based approach — fine-tuning the **Audio Spectrogram Transformer (AST)** — against a lightweight **MFCC + MLP classifier** baseline, with an interactive Streamlit demo for real-time inference.
 
-![Waveform and Log-Mel spectrogram comparison](images/waveform_logmel_comparison.png)
 
 ## Overview
 
@@ -73,8 +72,8 @@ The app expects `anomaly_detection_model2.pth` to be present in the same directo
 | Notebook | Description |
 |---|---|
 | [`notebook.ipynb`](notebook.ipynb) | Dataset loading, exploratory data analysis, waveform/spectrogram/MFCC visualization, and the overall AST-based approach write-up. |
-| [`fine_tuning_ast(on_fan_set).ipynb`](fine_tuning_ast(on_fan_set).ipynb) | Fine-tuning the AST transformer on the fan subset of MIMII. |
-| [`autoencoder_calssifier_supervised_(with_mfcc).ipynb`](autoencoder_calssifier_supervised_(with_mfcc).ipynb) | MFCC feature extraction and training of the supervised MLP classifier (the model served by the demo app). |
+| [`fine_tuning_ast(on_fan_set).ipynb`](fine_tuning_ast%28on_fan_set%29.ipynb) | Fine-tuning the AST transformer on the fan subset of MIMII. |
+| [`autoencoder_calssifier_supervised_(with_mfcc).ipynb`](autoencoder_calssifier_supervised_%28with_mfcc%29.ipynb) | MFCC feature extraction and training of the supervised MLP classifier (the model served by the demo app). |
 
 ## Tech Stack
 
@@ -94,6 +93,5 @@ The app expects `anomaly_detection_model2.pth` to be present in the same directo
 ## Author
 
 Developed as part of a Master's-level Advanced Deep Learning project (November 2025).
-
 
 
